@@ -1,0 +1,30 @@
+nav {
+  width: 100%;
+  background: transparent; /* Change background to transparent */
+  color: white;
+  padding: 4px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.5s;
+}
+
+.logo {
+  width: 180px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 5px 20px;
+  font-size: 16px;
+}
+
+.dark-nav {
+  background: #212ea0;
+  transition: 0.5;
+}
